@@ -16,6 +16,6 @@ def main(source="content", dest="dist"):
     Site(**config).build()
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     typer.run(main)
 
